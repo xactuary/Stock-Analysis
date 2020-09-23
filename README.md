@@ -1,4 +1,4 @@
 # Stock-Analysis
-Module 2 VBA project
-Added Test Message to make sure VBA working - but can't use F5 key on my laptop
-Added DQ anaylsis macro which addes column headings to new sheet
+### BACKGROUND
+Steve wants to know if the code developed to analyze a small set of stocks can be maximized to use on the whole stock market.  Consideration must be given to whether the code can be refactored in order to speed up the processing of the data. 
+
