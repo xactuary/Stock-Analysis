@@ -6,9 +6,10 @@ Steve wants to know if the code developed to analyze a small set of stocks can b
 ## ANALYSIS
 In order to see if refactoring the code used to analyze 12 stocks can help optimize the performance of the code to make it compatible with running it on the whole stock market, a comparison of the code before refactoring and after has been done.  
 
-Steve was interested to know about the performance of a group of 12 stocks in 2017 and 2018.  The first run of code results in the following tables:
+Steve was interested to know about the performance of a group of 12 stocks in 2017 and 2018.  The first run of code results in the following stock tickers results and the associated run time for the code:
 
 ![alt text](https://github.com/xactuary/Stock-Analysis/blob/master/Resources/Orig%202017.PNG)
+![alt text](https://github.com/xactuary/Stock-Analysis/blob/master/Resources/2017%20incl%20formatting%20before.PNG)
 
 
 ![alt text](https://github.com/xactuary/Stock-Analysis/blob/master/Resources/Orig%202018.PNG)
