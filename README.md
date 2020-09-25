@@ -14,3 +14,12 @@ Steve was interested to know about the performance of a group of 12 stocks in 20
 
 ![alt text](https://github.com/xactuary/Stock-Analysis/blob/master/Resources/Orig%202018.PNG)
 ![alt text](https://github.com/xactuary/Stock-Analysis/blob/master/Resources/2018%20formatting%20before.PNG)
+
+After Refactoring the stock market analytic results are the same but the timing has changed as shown below:
+
+![alt text](https://github.com/xactuary/Stock-Analysis/blob/master/Resources/Orig%202017.PNG)
+![alt text](https://github.com/xactuary/Stock-Analysis/blob/master/Resources/2017%20incl%20formatting%20before.PNG)
+
+
+![alt text](https://github.com/xactuary/Stock-Analysis/blob/master/Resources/Orig%202018.PNG)
+![alt text](https://github.com/xactuary/Stock-Analysis/blob/master/Resources/2018%20formatting%20before.PNG)
