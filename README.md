@@ -13,3 +13,4 @@ Steve was interested to know about the performance of a group of 12 stocks in 20
 
 
 ![alt text](https://github.com/xactuary/Stock-Analysis/blob/master/Resources/Orig%202018.PNG)
+![alt text](https://github.com/xactuary/Stock-Analysis/blob/master/Resources/2018%20formatting%20before.PNG)
