@@ -23,4 +23,5 @@ After Refactoring the code the stock market analytic results are the same but th
 ![alt text](https://github.com/xactuary/Stock-Analysis/blob/master/Resources/2018%20Challenge%20Results.PNG)
 ![alt text](https://github.com/xactuary/Stock-Analysis/blob/master/Resources/2018%20challenge.PNG)
 
-Clearly the run time has been reduced substantially by making some changes to the code.
+Clearly the run time has been reduced substantially by making some changes to the code.  Some of the changes made that have made the code more efficient include the
+following: 
