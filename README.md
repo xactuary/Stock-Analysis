@@ -8,4 +8,4 @@ In order to see if refactoring the code used to analyze 12 stocks can help optim
 
 Steve was interested to know about the performance of a group of 12 stocks in 2017 and 2018.  The first run of code results in the following tables:
 
-(Resources/Orig 2017.PNG)
+![alt text](https://github.com/xactuary/stock-Analysis/blob/master/Resources/Orig 2017.PNG)
