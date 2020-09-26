@@ -56,6 +56,11 @@ This code included the "and" statement to look at both the current value and the
 If Cells(j, 1).Value <> Cells(j - 1, 1).Value Then tickerstartingPrices(tickerindex) = Cells(j, 6).Value
 ```
 Both methods require the data to be sorted by Column 1.  The new method speeds up the processing by removing the "and" step.  
+
+### CONCLUSION
+The benefit of refactoring the code is apparent in the significant decrease in time needed to run the code.  However, the cost of refactoring is the additional amount of time it takes to comb through someone else's code to both understand it and then make improvements upon it.  So the value of refactoring has to do with how the end project will be used.  If someone just needs a quick answer to a question, then the code efficiency doesn't matter as much as if someone needs to have code that can be implemented and reused by other people or on larger datasets.  The addition of using arrays and a simple change to an equation on the stock analysis is a small refactoring change and should benefit the use of the code on the whole stock market dataset.  
+
+
  
 
 
