@@ -31,18 +31,27 @@ Refactoring the code can help a project by taking fewer steps, using less memory
 According to EDUCBA.com 
 >one of the major advantages of an array is that they can be declared once and reused multiple times. It represents multiple values by making use of a single variable. This helps in improvement of reusability of code and also improves the readability of the code.
 
-Whereas in the original code, an array was used for the stock tickers, the refactored code now includes arrays for the output variables. 
+Whereas in the original code, an array was used for the stock tickers, the refactored code now also includes arrays for the output variables. 
 
 The variables before refactoring
 ```
 Dim startingPrice As Single
 Dim EndingPrice As Single
+TotalVolume=0
 ```
 This compares to the array used after refactoring
 ```
 Dim tickerVolumes(12) As Long
 Dim tickerstartingPrices(12) As Single
-Dim tickerendingPrices(12) As Single
+Dim tickerendingPrices(12) As Single 
+```
+Another item in the refactoring that was changes is the equation for checking to see if the ticker has changed in order to pull the starting and ending prices.  The equation was simplified to make it easier to follow.  The original code used was
+```
+If Cells(j,1).Value = ticker and Cells(j-1,1).Value <> ticker then startingPrice=Cells(j,6.Value
+```
+
+
+
 
 
 
