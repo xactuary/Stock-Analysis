@@ -58,6 +58,9 @@ If Cells(j, 1).Value <> Cells(j - 1, 1).Value Then tickerstartingPrices(tickerin
 ```
 Both methods require the data to be sorted by Column 1.  The new method reduces the complexity of the code and speeds up the processing by removing the "and" step. A similar change was made to the code to retrieve the ending price. 
 
+The refactored code can be found here:
+(https://github.com/xactuary/Stock-Analysis/blob/master/VBA_Challenge.xlsm)
+
 ## CONCLUSION
 The benefit of refactoring the code for the Stock Analysis is apparent in the significant decrease in time needed to run the code.  However, the cost of refactoring is the additional amount of time it takes to comb through someone else's code to both understand it and then make improvements upon it.  Starting with someone else's code may be more difficult then just starting over with new code.  The value of refactoring has to do with how the end project will be used.  If someone just needs a quick answer to a question, then the code efficiency doesn't matter as much as if someone needs to have code that can be implemented and reused by other people or on larger datasets.  The addition of using arrays and a simple change to an equation on the stock analysis is a small refactoring change and should benefit the use of the code on the whole stock market dataset.  
 
