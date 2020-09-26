@@ -26,7 +26,9 @@ After Refactoring the code the stock market analytic results are the same but th
 Clearly the run time has been reduced substantially by making some changes to the code but getting the same results.  
 
 ### DISCUSSION OF REFACTORING
-Refactoring the code can help a project by taking fewer steps, using less memory, or improving the logic of the code to make it easier for future users to read. In the stock analysis code, instead of using variables as counters to accumulate the volume, the refactored code uses arrays to capture the values for output.  
+The advantage of refactoring the code is that taking the time to do this can help create a program that takes fewer steps, uses less memory, or improves the logic of the code to make it easier for future users to read. The first attempt at writing code to accomplish a task may not be the most efficient method to get the job done but it may work and get the answer right away.  The disadvantage of refactoring the code is that it takes additional time.  Many projects may require a quick turn around and don't require efficiency to get the results. In these cases, it might not be worthwhile to spend the time refactoring the original code.  However, if the project is going to put code in production that will be reused by many people, it is important to refactor it to make sure it is efficient and correct for all cases.  
+
+In the stock analysis code, Steve wants to be able to use the code on a much large dataset.  This means that the code needs to be as efficient as possible.  To accomplish this, instead of using variables as counters to accumulate the volume, the refactored code uses arrays to capture the values for output.  
 
 According to EDUCBA.com 
 >one of the major advantages of an array is that they can be declared once and reused multiple times. It represents multiple values by making use of a single variable. This helps in improvement of reusability of code and also improves the readability of the code.
@@ -45,12 +47,16 @@ Dim tickerVolumes(12) As Long
 Dim tickerstartingPrices(12) As Single
 Dim tickerendingPrices(12) As Single 
 ```
-Another item in the refactoring that was changes is the equation for checking to see if the ticker has changed in order to pull the starting and ending prices.  The equation was simplified to make it easier to follow.  The original code used was
+Another item in the refactoring that was changed is the equation for checking to see if the ticker has changed in order to pull the starting and ending prices.  The equation was simplified to make it easier to follow.  The original code used was
 ```
-If Cells(j,1).Value = ticker and Cells(j-1,1).Value <> ticker then startingPrice=Cells(j,6.Value
+If Cells(j,1).Value = ticker and Cells(j-1,1).Value <> ticker then startingPrice=Cells(j,6).Value
 ```
-
-
+This code included the "and" statement to look at both the current value and the value before.  The updated code simplifies the equation to this:
+```
+If Cells(j, 1).Value <> Cells(j - 1, 1).Value Then tickerstartingPrices(tickerindex) = Cells(j, 6).Value
+```
+Both methods require the data to be sorted by Column 1.  The new method speeds up the processing by removing the "and" step.  
+ 
 
 
 
