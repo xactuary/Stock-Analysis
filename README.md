@@ -18,7 +18,7 @@ Steve was interested to know about the performance of a group of 12 stocks in 20
 After Refactoring the code the stock market analytic results are the same except for the removal of the "$" for Total Daily Volume but the timing has changed as shown below:
 
 ![alt text](https://github.com/xactuary/Stock-Analysis/blob/master/Resources/2017%20challenge%20results.PNG)
-![alt text](https://github.com/xactuary/Stock-Analysis/blob/master/Resources/2017%20challenge.PNG)
+![alt text](https://github.com/xactuary/Stock-Analysis/blob/master/Resources/VBA_Challenge_2017.PNG)
 
 ![alt text](https://github.com/xactuary/Stock-Analysis/blob/master/Resources/2018%20Challenge%20Results.PNG)
 ![alt text](https://github.com/xactuary/Stock-Analysis/blob/master/Resources/2018%20challenge.PNG)
