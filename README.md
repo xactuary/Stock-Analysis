@@ -26,8 +26,8 @@ After Refactoring the code the stock market analytic results are the same but th
 Clearly the run time has been reduced substantially by making some changes to the code but getting the same results.  
 
 ### DISCUSSION OF REFACTORING
-Refactoring the code can help a project by taking fewer steps, using less memory, or improving the logic of the code to make it easier for future users to read.  
-In the stock analysis code, instead of using variables as counters to accumulate the volume, the refactored code uses arrays to capture the values for output.  
+Refactoring the code can help a project by taking fewer steps, using less memory, or improving the logic of the code to make it easier for future users to read. In the stock analysis code, instead of using variables as counters to accumulate the volume, the refactored code uses arrays to capture the values for output.  
+
 According to EDUCBA.com 
 >one of the major advantages of an array is that they can be declared once and reused multiple times. It represents multiple values by making use of a single variable. This helps in improvement of reusability of code and also improves the readability of the code.
 
