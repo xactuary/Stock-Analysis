@@ -15,7 +15,7 @@ Steve was interested to know about the performance of a group of 12 stocks in 20
 ![alt text](https://github.com/xactuary/Stock-Analysis/blob/master/Resources/Orig%202018.PNG)
 ![alt text](https://github.com/xactuary/Stock-Analysis/blob/master/Resources/2018%20formatting%20before.PNG)
 
-After Refactoring the code the stock market analytic results are the same but the timing has changed as shown below:
+After Refactoring the code the stock market analytic results are the same except for the removal of the "$" for Total Daily Volume but the timing has changed as shown below:
 
 ![alt text](https://github.com/xactuary/Stock-Analysis/blob/master/Resources/2017%20challenge%20results.PNG)
 ![alt text](https://github.com/xactuary/Stock-Analysis/blob/master/Resources/2017%20challenge.PNG)
@@ -23,7 +23,7 @@ After Refactoring the code the stock market analytic results are the same but th
 ![alt text](https://github.com/xactuary/Stock-Analysis/blob/master/Resources/2018%20Challenge%20Results.PNG)
 ![alt text](https://github.com/xactuary/Stock-Analysis/blob/master/Resources/2018%20challenge.PNG)
 
-Clearly the run time has been reduced substantially by making some changes to the code but getting the same results. The only change to the output was removing the $ from the Total Volume in the refactored code.    
+Clearly the run time has been reduced substantially by making some changes to the code while still getting the same results. 
 
 #### DISCUSSION OF REFACTORING
 The advantage of refactoring the code is that taking the time to do this can help create a program that takes fewer steps, uses less memory, or improves the logic of the code to make it easier for future users to read. The first attempt at writing code to accomplish a task may not be the most efficient method to get the job done but it may work and get the answer right away.  The disadvantage of refactoring the code is that it takes additional time.  Many projects may require a quick turn around and don't require efficiency to get the results. In these cases, it might not be worthwhile to spend the time refactoring the original code.  However, if the project is going to put code into production that will be reused by many people or run on very large datasets, it is important to refactor it to make sure it is efficient and correct for all cases. Some programmers may decide it is easier to start over from scratch than to refactor someone else's code. 
@@ -56,7 +56,7 @@ This code included the "and" statement to look at both the current value and the
 ```
 If Cells(j, 1).Value <> Cells(j - 1, 1).Value Then tickerstartingPrices(tickerindex) = Cells(j, 6).Value
 ```
-Both methods require the data to be sorted by Column 1.  The new method reduces the complexity of the code and speeds up the processing by removing the "and" step.  
+Both methods require the data to be sorted by Column 1.  The new method reduces the complexity of the code and speeds up the processing by removing the "and" step. A similar change was made to the code to retrieve the ending price. 
 
 ## CONCLUSION
 The benefit of refactoring the code for the Stock Analysis is apparent in the significant decrease in time needed to run the code.  However, the cost of refactoring is the additional amount of time it takes to comb through someone else's code to both understand it and then make improvements upon it.  Starting with someone else's code may be more difficult then just starting over with new code.  The value of refactoring has to do with how the end project will be used.  If someone just needs a quick answer to a question, then the code efficiency doesn't matter as much as if someone needs to have code that can be implemented and reused by other people or on larger datasets.  The addition of using arrays and a simple change to an equation on the stock analysis is a small refactoring change and should benefit the use of the code on the whole stock market dataset.  
